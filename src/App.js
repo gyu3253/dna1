@@ -161,7 +161,6 @@ function App() {
                 display: "flex",
                 justifyContent: "center",
                 alignItems: "center",
-                marginTop: "10px",
               }}
             >
               <strong style={{ fontSize: "1.1em", color: "blue" }}>주변</strong>
