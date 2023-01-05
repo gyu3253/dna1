@@ -94,10 +94,11 @@ function App() {
             marginBottom: "10px",
           }}
         >
-          <span style={{ fontSize: "1em" }}>현재 주소 : </span>
-          <span style={{ fontSize: "8px" }}>
-            대전시 서구 둔산로 100 대전광역시청 동문 잔디광장 방범용 CCTV(또는
-            남문 시민잔디광장)
+          <span style={{ fontSize: "0.8em" }}>현재 주소 : </span>
+          <span style={{ fontSize: "15px" }}>
+            대전시 서구 둔산로 100 대전광역시청
+            <br />
+            @동문 잔디광장 방범용 CCTV
           </span>
         </div>
 
@@ -159,33 +160,34 @@ function App() {
               style={{
                 display: "flex",
                 justifyContent: "center",
-                alignItems: "end",
+                alignItems: "center",
+                marginTop: "10px",
               }}
             >
-              <strong style={{ fontSize: "1em", color: "blue" }}>주 변</strong>
-              &nbsp;&nbsp;&nbsp;&nbsp;
-              <strong style={{ fontSize: "0.6em", color: "black" }}>
+              <strong style={{ fontSize: "1.1em", color: "blue" }}>주변</strong>
+              &nbsp;&nbsp;&nbsp;
+              <strong style={{ fontSize: "0.8em", color: "black" }}>
                 맛집
               </strong>
-              &nbsp;&nbsp;&nbsp;
-              <strong style={{ fontSize: "0.6em", color: "black" }}>
+              &nbsp;&nbsp;
+              <strong style={{ fontSize: "0.8em", color: "black" }}>
                 관광
               </strong>
-              &nbsp;&nbsp;&nbsp;
-              <strong style={{ fontSize: "0.6em", color: "black" }}>
+              &nbsp;&nbsp;
+              <strong style={{ fontSize: "0.8em", color: "black" }}>
                 쇼핑
               </strong>
-              &nbsp;&nbsp;&nbsp;
-              <strong style={{ fontSize: "0.6em", color: "black" }}>
+              &nbsp;&nbsp;
+              <strong style={{ fontSize: "0.8em", color: "black" }}>
                 병원
               </strong>
-              &nbsp;&nbsp;&nbsp;
-              <strong style={{ fontSize: "0.6em", color: "black" }}>AED</strong>
-              &nbsp;&nbsp;&nbsp;
-              <strong style={{ fontSize: "0.6em", color: "black" }}>
+              &nbsp;&nbsp;
+              <strong style={{ fontSize: "0.8em", color: "black" }}>AED</strong>
+              &nbsp;&nbsp;
+              <strong style={{ fontSize: "0.8em", color: "black" }}>
                 {"→"}
               </strong>
-              &nbsp;&nbsp;&nbsp;
+              &nbsp;&nbsp;
               <strong style={{ fontSize: "0.6em", color: "blue" }}>
                 증강현실로 보기
               </strong>
