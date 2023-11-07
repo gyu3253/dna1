@@ -4,8 +4,6 @@ import { Button } from "@mui/material";
 import { useEffect, useRef } from "react";
 
 function App() {
-  location.href = "http://jinwon01.cafe24.com:8090/qrlocation/index.html";
-  return;
   
   const mapElement = useRef(null);
 
